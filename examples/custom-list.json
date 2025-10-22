@@ -1,0 +1,47 @@
+{
+  "name": "Example Custom Token List",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "timestamp": "2025-10-22T00:00:00.000Z",
+  "logoURI": "https://example.com/logo.png",
+  "keywords": [
+    "example",
+    "custom",
+    "octra"
+  ],
+  "tags": {
+    "native": {
+      "name": "Native Token",
+      "description": "Native blockchain token"
+    },
+    "stablecoin": {
+      "name": "Stablecoin",
+      "description": "USD pegged tokens"
+    },
+    "defi": {
+      "name": "DeFi",
+      "description": "Decentralized Finance tokens"
+    }
+  },
+  "tokens": [
+    {
+      "network": "octra-testnet",
+      "address": "native",
+      "symbol": "OCT",
+      "name": "Octra",
+      "decimals": 6,
+      "logoURI": "https://example.com/logos/oct.png",
+      "tags": ["native"],
+      "extensions": {
+        "website": "https://octra.network",
+        "description": "Native gas token of the Octra Network blockchain",
+        "explorer": "https://octrascan.io",
+        "isNative": true,
+        "blockchain": "Octra Network"
+      }
+    }
+  ]
+}

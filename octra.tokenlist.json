@@ -1,0 +1,65 @@
+{
+  "name": "0xio Default Token List",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "timestamp": "2025-10-22T00:00:00.000Z",
+  "logoURI": "https://raw.githubusercontent.com/0xio-xyz/Token-lists/main/logos/0xio.png",
+  "keywords": [
+    "0xio",
+    "octra network",
+    "wallet",
+    "default",
+    "tokens"
+  ],
+  "tags": {
+    "native": {
+      "name": "Native Token",
+      "description": "Native blockchain token"
+    },
+    "wrapped": {
+      "name": "Wrapped Token",
+      "description": "Wrapped version of native token"
+    },
+    "stablecoin": {
+      "name": "Stablecoin",
+      "description": "Tokens pegged to USD or other stable assets"
+    },
+    "defi": {
+      "name": "DeFi",
+      "description": "Decentralized Finance tokens"
+    },
+    "gaming": {
+      "name": "Gaming",
+      "description": "Gaming and metaverse tokens"
+    },
+    "nft": {
+      "name": "NFT",
+      "description": "NFT platform tokens"
+    }
+  },
+  "tokens": [
+    {
+      "network": "octra-testnet",
+      "address": "native",
+      "symbol": "OCT",
+      "name": "Octra",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/0xio-xyz/Token-lists/main/logos/oct.png",
+      "tags": [
+        "native"
+      ],
+      "extensions": {
+        "website": "https://octra.network",
+        "description": "Native gas token of the Octra Network blockchain",
+        "explorer": "https://octrascan.io",
+        "coingeckoId": "",
+        "coinmarketcapId": "",
+        "isNative": true,
+        "blockchain": "Octra Network"
+      }
+    }
+  ]
+}
