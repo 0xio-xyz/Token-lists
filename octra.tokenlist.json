@@ -1,17 +1,17 @@
 {
-  "name": "0xio Default Token List",
+  "name": "0xio Octra Testnet Token List",
   "version": {
     "major": 1,
     "minor": 0,
     "patch": 0
   },
-  "timestamp": "2025-10-22T00:00:00.000Z",
-  "logoURI": "https://raw.githubusercontent.com/0xio-xyz/Token-lists/main/logos/0xio.png",
+  "timestamp": "2025-11-05T00:00:00.000Z",
+  "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafkreiadfons6mhgyzcbeo6x445plyxtqomf2y3lsnwul7d4avbxxvwxfu",
   "keywords": [
     "0xio",
-    "octra network",
+    "octra",
+    "testnet",
     "wallet",
-    "default",
     "tokens"
   ],
   "tags": {
@@ -19,25 +19,13 @@
       "name": "Native Token",
       "description": "Native blockchain token"
     },
-    "wrapped": {
-      "name": "Wrapped Token",
-      "description": "Wrapped version of native token"
+    "testnet": {
+      "name": "Testnet",
+      "description": "Testnet token"
     },
-    "stablecoin": {
-      "name": "Stablecoin",
-      "description": "Tokens pegged to USD or other stable assets"
-    },
-    "defi": {
-      "name": "DeFi",
-      "description": "Decentralized Finance tokens"
-    },
-    "gaming": {
-      "name": "Gaming",
-      "description": "Gaming and metaverse tokens"
-    },
-    "nft": {
-      "name": "NFT",
-      "description": "NFT platform tokens"
+    "private": {
+      "name": "Private",
+      "description": "Privacy-enhanced encrypted token"
     }
   },
   "tokens": [
@@ -45,20 +33,42 @@
       "network": "octra-testnet",
       "address": "native",
       "symbol": "OCT",
-      "name": "Octra",
+      "name": "Octra Testnet",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/0xio-xyz/Token-lists/main/logos/oct.png",
+      "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafkreiadfons6mhgyzcbeo6x445plyxtqomf2y3lsnwul7d4avbxxvwxfu",
       "tags": [
-        "native"
+        "native",
+        "testnet"
       ],
       "extensions": {
-        "website": "https://octra.network",
-        "description": "Native gas token of the Octra Network blockchain",
-        "explorer": "https://octrascan.io",
-        "coingeckoId": "",
-        "coinmarketcapId": "",
+        "website": "https://octracoin.org",
+        "description": "Native gas token of the Octra Network testnet blockchain",
+        "explorer": "https://octracoin.org",
         "isNative": true,
-        "blockchain": "Octra Network"
+        "isTestnet": true,
+        "blockchain": "Octra Network Testnet"
+      }
+    },
+    {
+      "network": "octra-testnet",
+      "address": "native-private",
+      "symbol": "OCT",
+      "name": "Octra Testnet (Private)",
+      "decimals": 6,
+      "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafkreicfa5j2bpfkwm7ywbk2h5n7h57rqpwwratkamzso3rl7sgiqfp6ii",
+      "tags": [
+        "native",
+        "testnet",
+        "private"
+      ],
+      "extensions": {
+        "website": "https://octracoin.org",
+        "description": "Privacy-enhanced encrypted Octra tokens on testnet",
+        "explorer": "https://octracoin.org",
+        "isNative": true,
+        "isPrivate": true,
+        "isTestnet": true,
+        "blockchain": "Octra Network Testnet"
       }
     }
   ]
