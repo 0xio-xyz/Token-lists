@@ -6,7 +6,7 @@
     "patch": 0
   },
   "timestamp": "2025-11-05T00:00:00.000Z",
-  "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafkreiadfons6mhgyzcbeo6x445plyxtqomf2y3lsnwul7d4avbxxvwxfu",
+  "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra.svg",
   "keywords": [
     "0xio",
     "octra",
@@ -35,7 +35,7 @@
       "symbol": "OCT",
       "name": "Octra Testnet",
       "decimals": 6,
-      "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafkreiadfons6mhgyzcbeo6x445plyxtqomf2y3lsnwul7d4avbxxvwxfu",
+      "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra.svg",
       "tags": [
         "native",
         "testnet"
@@ -56,7 +56,7 @@
       "symbol": "OCT",
       "name": "Octra Testnet (Private)",
       "decimals": 6,
-      "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafkreicfa5j2bpfkwm7ywbk2h5n7h57rqpwwratkamzso3rl7sgiqfp6ii",
+      "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra_PVT.svg",
       "tags": [
         "native",
         "testnet",
