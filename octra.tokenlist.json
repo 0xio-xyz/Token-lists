@@ -54,7 +54,7 @@
       "network": "octra-testnet",
       "address": "native-private",
       "symbol": "OCT",
-      "name": "Octra Testnet (Private)",
+      "name": "Octra Testnet",
       "decimals": 6,
       "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra_PVT.svg",
       "tags": [
