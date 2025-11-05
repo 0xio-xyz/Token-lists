@@ -45,6 +45,7 @@
         "description": "Native gas token of the Octra Network testnet blockchain",
         "explorer": "https://octracoin.org",
         "isNative": true,
+        "isPrivate": false,
         "isTestnet": true,
         "blockchain": "Octra Network Testnet"
       }
