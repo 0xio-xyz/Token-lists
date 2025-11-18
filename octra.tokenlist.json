@@ -41,9 +41,9 @@
         "testnet"
       ],
       "extensions": {
-        "website": "https://octracoin.org",
+        "website": "https://octra.org/",
         "description": "Native gas token of the Octra Network testnet blockchain",
-        "explorer": "https://octracoin.org",
+        "explorer": "https://octrascan.io/",
         "isNative": true,
         "isPrivate": false,
         "isTestnet": true,
@@ -63,9 +63,9 @@
         "private"
       ],
       "extensions": {
-        "website": "https://octracoin.org",
+        "website": "https://octra.org",
         "description": "Privacy-enhanced encrypted Octra tokens on testnet",
-        "explorer": "https://octracoin.org",
+        "explorer": "https://octrascan.io/",
         "isNative": true,
         "isPrivate": true,
         "isTestnet": true,
