@@ -9,7 +9,7 @@
 0xio Token Lists is a specification for lists of token metadata (address, decimals, logos, etc.) that can be used by any dApp interface on the **Octra Network blockchain**. This repository contains the official token list used by [0xio Wallet](https://0xio.xyz) and **0xio DEX**.
 
 **About the Projects:**
-- **Octra Network** - Layer 1 blockchain (built by Octra team) - Currently **Testnet Only**
+- **Octra Network** - Layer 1 blockchain (built by Octra team) - **Mainnet Live**
 - **0xio Wallet** - Non-custodial wallet built on top of Octra Network
 - **0xio DEX** - Decentralized exchange for swapping tokens on Octra Network
 - **Token Lists** - Standardized token registry for the Octra ecosystem
@@ -35,7 +35,7 @@ A token list is a JSON file containing:
 
 ```json
 {
-  "network": "octra-testnet",
+  "network": "octra-mainnet",
   "address": "oct1abc123...",
   "symbol": "TOKEN",
   "name": "Example Token",
@@ -119,7 +119,7 @@ Want to list your token on 0xio DEX and 0xio Wallet? Follow our simple guide!
 
 ### Quick Steps:
 
-1. Deploy your token on Octra Testnet
+1. Deploy your token on Octra Network
 2. Prepare your token logo (256x256 PNG)
 3. Fork this repository
 4. Add your token to `octra.tokenlist.json`
@@ -141,8 +141,8 @@ See also: [CONTRIBUTING.md](./CONTRIBUTING.md) for general contribution guidelin
 ### Quick Add Token
 
 Required fields:
-- `network`: 2 (testnet)
-- `address`: Token contract address (47 chars, starts with "oct1")
+- `network`: octra-mainnet
+- `address`: Token contract address (47 chars, starts with "oct")
 - `symbol`: Token ticker (max 20 chars)
 - `name`: Full token name (max 40 chars)
 - `decimals`: Number of decimals (commonly 6 or 18)
@@ -184,13 +184,13 @@ The native OCT token (Octra Network's blockchain token) is included by default:
 
 ```json
 {
-  "network": "octra-testnet",
+  "network": "octra-mainnet",
   "address": "native",
   "symbol": "OCT",
   "name": "Octra",
   "decimals": 6,
   "logoURI": "https://raw.githubusercontent.com/0xio-xyz/Token-lists/main/logos/oct.png",
-  "tags": ["native"]
+  "tags": ["native", "mainnet"]
 }
 ```
 
@@ -203,14 +203,11 @@ The native OCT token (Octra Network's blockchain token) is included by default:
 
 ## Network Information
 
-### Octra Testnet (Network: octra-testnet) - CURRENT
+### Octra Mainnet (Network: octra-mainnet) - LIVE
 - **RPC**: https://octra.network
 - **Explorer**: https://octrascan.io
 - **Native Token**: OCT (6 decimals)
-- **Status**: Active (Testnet)
-
-### Octra Mainnet (Network ID: 1)
-- **Status**: Coming Soon
+- **Status**: Active (Mainnet)
 
 ## Resources
 

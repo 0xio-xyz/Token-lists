@@ -1,16 +1,16 @@
 {
-  "name": "0xio Octra Testnet Token List",
+  "name": "0xio Octra Token List",
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   },
-  "timestamp": "2025-11-05T00:00:00.000Z",
+  "timestamp": "2025-12-20T00:00:00.000Z",
   "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra.svg",
   "keywords": [
     "0xio",
     "octra",
-    "testnet",
+    "mainnet",
     "wallet",
     "tokens"
   ],
@@ -19,9 +19,9 @@
       "name": "Native Token",
       "description": "Native blockchain token"
     },
-    "testnet": {
-      "name": "Testnet",
-      "description": "Testnet token"
+    "mainnet": {
+      "name": "Mainnet",
+      "description": "Mainnet token"
     },
     "private": {
       "name": "Private",
@@ -30,46 +30,46 @@
   },
   "tokens": [
     {
-      "network": "octra-testnet",
+      "network": "octra-mainnet",
       "address": "native",
       "symbol": "OCT",
-      "name": "Octra Testnet",
+      "name": "Octra",
       "decimals": 6,
       "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra.svg",
       "tags": [
         "native",
-        "testnet"
+        "mainnet"
       ],
       "extensions": {
         "website": "https://octra.org/",
-        "description": "Native gas token of the Octra Network testnet blockchain",
+        "description": "Native gas token of the Octra Network blockchain",
         "explorer": "https://octrascan.io/",
         "isNative": true,
         "isPrivate": false,
-        "isTestnet": true,
-        "blockchain": "Octra Network Testnet"
+        "isTestnet": false,
+        "blockchain": "Octra Network"
       }
     },
     {
-      "network": "octra-testnet",
+      "network": "octra-mainnet",
       "address": "native-private",
       "symbol": "OCT",
-      "name": "Octra Testnet",
+      "name": "Octra",
       "decimals": 6,
       "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra_PVT.svg",
       "tags": [
         "native",
-        "testnet",
+        "mainnet",
         "private"
       ],
       "extensions": {
         "website": "https://octra.org",
-        "description": "Privacy-enhanced encrypted Octra tokens on testnet",
+        "description": "Privacy-enhanced encrypted Octra tokens",
         "explorer": "https://octrascan.io/",
         "isNative": true,
         "isPrivate": true,
-        "isTestnet": true,
-        "blockchain": "Octra Network Testnet"
+        "isTestnet": false,
+        "blockchain": "Octra Network"
       }
     }
   ]
