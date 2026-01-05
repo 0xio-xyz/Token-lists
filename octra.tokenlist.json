@@ -2,11 +2,11 @@
   "name": "0xio Octra Token List",
   "version": {
     "major": 1,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   },
   "timestamp": "2025-12-20T00:00:00.000Z",
-  "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra.svg",
+  "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
   "keywords": [
     "0xio",
     "octra",
@@ -35,7 +35,7 @@
       "symbol": "OCT",
       "name": "Octra",
       "decimals": 6,
-      "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra.svg",
+      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
       "tags": [
         "native",
         "mainnet"
@@ -56,7 +56,7 @@
       "symbol": "OCT",
       "name": "Octra",
       "decimals": 6,
-      "logoURI": "https://apricot-accepted-capybara-821.mypinata.cloud/ipfs/bafybeiglqes3zvebqzjpdvqiulspez2adcfmx2je3j5qgp2texyzwwqeoq/Octra_PVT.svg",
+      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Private.svg",
       "tags": [
         "native",
         "mainnet",
