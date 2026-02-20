@@ -2,15 +2,16 @@
   "name": "0xio Octra Token List",
   "version": {
     "major": 1,
-    "minor": 2,
+    "minor": 3,
     "patch": 0
   },
-  "timestamp": "2025-12-20T00:00:00.000Z",
+  "timestamp": "2026-02-20T00:00:00.000Z",
   "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
   "keywords": [
     "0xio",
     "octra",
     "mainnet",
+    "devnet",
     "wallet",
     "tokens"
   ],
@@ -22,6 +23,10 @@
     "mainnet": {
       "name": "Mainnet",
       "description": "Mainnet token"
+    },
+    "devnet": {
+      "name": "Devnet",
+      "description": "Devnet testnet token"
     },
     "private": {
       "name": "Private",
@@ -69,6 +74,51 @@
         "isNative": true,
         "isPrivate": true,
         "isTestnet": false,
+        "blockchain": "Octra Network"
+      }
+    },
+    {
+      "network": "octra-devnet",
+      "address": "native",
+      "symbol": "OCT",
+      "name": "Octra (Devnet)",
+      "decimals": 6,
+      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
+      "tags": [
+        "native",
+        "devnet"
+      ],
+      "extensions": {
+        "website": "https://octra.org/",
+        "description": "Native gas token on the Octra Devnet",
+        "explorer": "https://scan.octra.com/",
+        "faucet": "https://faucet-devnet.octra.com",
+        "rpc": "https://devnet.octra.com",
+        "isNative": true,
+        "isPrivate": false,
+        "isTestnet": true,
+        "blockchain": "Octra Network"
+      }
+    },
+    {
+      "network": "octra-devnet",
+      "address": "native-private",
+      "symbol": "OCT",
+      "name": "Octra (Devnet)",
+      "decimals": 6,
+      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Private.svg",
+      "tags": [
+        "native",
+        "devnet",
+        "private"
+      ],
+      "extensions": {
+        "website": "https://octra.org",
+        "description": "HFHE privacy-enhanced encrypted Octra tokens on Devnet",
+        "explorer": "https://scan.octra.com/",
+        "isNative": true,
+        "isPrivate": true,
+        "isTestnet": true,
         "blockchain": "Octra Network"
       }
     }
