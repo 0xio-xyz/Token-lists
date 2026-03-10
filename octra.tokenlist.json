@@ -2,10 +2,10 @@
   "name": "0xio Octra Token List",
   "version": {
     "major": 1,
-    "minor": 3,
+    "minor": 4,
     "patch": 0
   },
-  "timestamp": "2026-02-20T00:00:00.000Z",
+  "timestamp": "2026-03-10T00:00:00.000Z",
   "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
   "keywords": [
     "0xio",
@@ -31,6 +31,18 @@
     "private": {
       "name": "Private",
       "description": "Privacy-enhanced encrypted token"
+    },
+    "oat": {
+      "name": "OAT",
+      "description": "Octra Asset Token standard"
+    },
+    "wrapped": {
+      "name": "Wrapped",
+      "description": "Wrapped native token"
+    },
+    "dex": {
+      "name": "DEX",
+      "description": "Available on 0xio DEX"
     }
   },
   "tokens": [
@@ -91,7 +103,7 @@
       "extensions": {
         "website": "https://octra.org/",
         "description": "Native gas token on the Octra Devnet",
-        "explorer": "https://scan.octra.com/",
+        "explorer": "https://devnet.octrascan.io/",
         "faucet": "https://faucet-devnet.octra.com",
         "rpc": "https://devnet.octra.com",
         "isNative": true,
@@ -115,9 +127,52 @@
       "extensions": {
         "website": "https://octra.org",
         "description": "HFHE privacy-enhanced encrypted Octra tokens on Devnet",
-        "explorer": "https://scan.octra.com/",
+        "explorer": "https://devnet.octrascan.io/",
         "isNative": true,
         "isPrivate": true,
+        "isTestnet": true,
+        "blockchain": "Octra Network"
+      }
+    },
+    {
+      "network": "octra-devnet",
+      "address": "octCcgs68MFeeG8kpcwpHjdfD1M7tvjLKMvxkKMRkbNPmVs",
+      "symbol": "WOCT",
+      "name": "Wrapped OCT",
+      "decimals": 6,
+      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
+      "tags": [
+        "devnet",
+        "oat",
+        "wrapped",
+        "dex"
+      ],
+      "extensions": {
+        "description": "Wrapped OCT (OAT) — 1:1 wrapper for native OCT, used in DEX swaps and liquidity pools",
+        "explorer": "https://devnet.octrascan.io/address.html?addr=octCcgs68MFeeG8kpcwpHjdfD1M7tvjLKMvxkKMRkbNPmVs",
+        "isNative": false,
+        "isPrivate": false,
+        "isTestnet": true,
+        "blockchain": "Octra Network"
+      }
+    },
+    {
+      "network": "octra-devnet",
+      "address": "oct7qrpW3T8mXYbZfAZrkLQKGAtD6ZswCf9Px5jPXnfmtiK",
+      "symbol": "0XIO",
+      "name": "0xio",
+      "decimals": 6,
+      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeic5h373h25vvy443ni7b5ara5vj6u3ctha4oqqktqtse63nzrnwxi/0xio.png",
+      "tags": [
+        "devnet",
+        "oat",
+        "dex"
+      ],
+      "extensions": {
+        "description": "0xio governance and utility token on Octra Devnet",
+        "explorer": "https://devnet.octrascan.io/address.html?addr=oct7qrpW3T8mXYbZfAZrkLQKGAtD6ZswCf9Px5jPXnfmtiK",
+        "isNative": false,
+        "isPrivate": false,
         "isTestnet": true,
         "blockchain": "Octra Network"
       }
