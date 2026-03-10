@@ -3,7 +3,7 @@
   "version": {
     "major": 1,
     "minor": 4,
-    "patch": 0
+    "patch": 1
   },
   "timestamp": "2026-03-10T00:00:00.000Z",
   "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
@@ -104,8 +104,7 @@
         "website": "https://octra.org/",
         "description": "Native gas token on the Octra Devnet",
         "explorer": "https://devnet.octrascan.io/",
-        "faucet": "https://faucet-devnet.octra.com",
-        "rpc": "https://devnet.octra.com",
+        "rpc": "http://165.227.225.79:8080",
         "isNative": true,
         "isPrivate": false,
         "isTestnet": true,
