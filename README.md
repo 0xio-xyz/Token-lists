@@ -204,8 +204,8 @@ The native OCT token (Octra Network's blockchain token) is included by default:
 ## Network Information
 
 ### Octra Mainnet (Network: octra-mainnet) - LIVE
-- **RPC**: https://octra.network
-- **Explorer**: https://octrascan.io
+- **RPC**: http://46.101.86.250:8080
+- **Explorer**: https://lite.octrascan.io
 - **Native Token**: OCT (6 decimals)
 - **Status**: Active (Mainnet)
 
@@ -218,8 +218,8 @@ The native OCT token (Octra Network's blockchain token) is included by default:
 - **Token Lists**: https://github.com/0xio-xyz/Token-lists
 
 ### Octra Network (Blockchain)
-- **Network RPC**: https://octra.network
-- **Explorer**: https://octrascan.io
+- **Network RPC**: http://46.101.86.250:8080
+- **Explorer**: https://lite.octrascan.io
 - **Documentation**: (Octra team's docs)
 
 ## License
