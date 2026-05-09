@@ -73,7 +73,7 @@
       "symbol": "OCT",
       "name": "Octra",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Octra_PVT.svg",
+      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Public.svg",
       "tags": [
         "native",
         "mainnet",
@@ -117,7 +117,7 @@
       "symbol": "OCT",
       "name": "Octra (Devnet)",
       "decimals": 6,
-      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Octra_PVT.svg",
+      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Public.svg",
       "tags": [
         "native",
         "devnet",
