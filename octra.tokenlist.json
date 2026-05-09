@@ -6,7 +6,7 @@
     "patch": 1
   },
   "timestamp": "2026-03-10T00:00:00.000Z",
-  "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
+  "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Public.svg",
   "keywords": [
     "0xio",
     "octra",
@@ -52,7 +52,7 @@
       "symbol": "OCT",
       "name": "Octra",
       "decimals": 6,
-      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
+      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Public.svg",
       "tags": [
         "native",
         "mainnet"
@@ -73,7 +73,7 @@
       "symbol": "OCT",
       "name": "Octra",
       "decimals": 6,
-      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Private.svg",
+      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Private.svg",
       "tags": [
         "native",
         "mainnet",
@@ -95,7 +95,7 @@
       "symbol": "OCT",
       "name": "Octra (Devnet)",
       "decimals": 6,
-      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
+      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Public.svg",
       "tags": [
         "native",
         "devnet"
@@ -117,7 +117,7 @@
       "symbol": "OCT",
       "name": "Octra (Devnet)",
       "decimals": 6,
-      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Private.svg",
+      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Private.svg",
       "tags": [
         "native",
         "devnet",
@@ -139,7 +139,7 @@
       "symbol": "WOCT",
       "name": "Wrapped OCT",
       "decimals": 6,
-      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeidwf7dwz6ag4vpmnkm72hmuwfero5zx6mclx6gcbxfwwyt5ihhjuy/Oct_Public.svg",
+      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Public.svg",
       "tags": [
         "devnet",
         "oat",
@@ -161,7 +161,7 @@
       "symbol": "0XIO",
       "name": "0xio",
       "decimals": 6,
-      "logoURI": "https://ivory-realistic-dingo-449.mypinata.cloud/ipfs/bafybeic5h373h25vvy443ni7b5ara5vj6u3ctha4oqqktqtse63nzrnwxi/0xio.png",
+      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/0xio/icon512.png",
       "tags": [
         "devnet",
         "oat",
