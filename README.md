@@ -22,6 +22,45 @@ Standardized token registry for the Octra Network ecosystem.
 https://raw.githubusercontent.com/0xio-xyz/Token-lists/main/octra.tokenlist.json
 ```
 
+## NFT Collections
+
+`octra.nftlist.json` lists known NFT collections per network:
+
+```
+https://raw.githubusercontent.com/0xio-xyz/Token-lists/main/octra.nftlist.json
+```
+
+The node's `octra_tokensByAddress` leaves some collections out of a wallet's holdings (EUINT's newer contracts). 0xio Wallet asks `balance_of(wallet)` of every collection in this list that the holdings did not include, so a wallet finds them without importing anything.
+
+| Name | Network | Address |
+|------|---------|---------|
+| Xpectra | Mainnet | `octC4PvHrT8U1vDsZ5ejEBj6UgW2fRoLfohFBSCePdstZfQ` |
+| tungstenoct | Mainnet | `oct6gz4LUn5NAePzgis2PdBBQrUMLZv8uuZS9ZCPecxaRXA` |
+| Pegasa | Mainnet | `octHWfjg87B9Li57tgHc3d1ZKWYHY1ijwyFdvDNDTnSsY6o` |
+| Geodesics | Mainnet | `octH9hzVMGgvCieiERVZGMfXvTa1FHGneESb28212yPPu6J` |
+| Geodesics | Devnet | `oct2anqvVd5ciBGzqtVZK5pKZehbrQgPnDcw7pnWnCNSWkK` |
+| Colonies | Devnet | `octEYrJrypHj2xndM39PokSMM5gGoxEEncKB8k9qGFyhrym` |
+
+### Collection Entry Format
+
+```json
+{
+  "network": "mainnet",
+  "address": "octAbc123def456...",
+  "name": "Example Collection",
+  "symbol": "EXC"
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `network` | string | `mainnet` or `devnet` |
+| `address` | string | Collection contract address (starts with `oct`, 47 chars) |
+| `name` | string | Collection name as the contract reports it (`get_name`, `collection_name` or `name`) |
+| `symbol` | string | Collection symbol (`get_symbol` or `symbol`); may be empty |
+
+To add a collection, add an entry to the `collections` array, increment the minor version, update the timestamp and open a Pull Request. The contract must answer `balance_of(address)`.
+
 ## Current Tokens
 
 | Symbol | Name | Network | Type |
@@ -173,6 +212,8 @@ Follows [semantic versioning](https://semver.org/):
 - **Minor** - New token added
 - **Patch** - Metadata update (logo, description, etc.)
 
+The NFT list (`octra.nftlist.json`) is versioned the same way, per collection.
+
 ## Network Info
 
 ### Octra Mainnet (`octra-mainnet`)
@@ -188,6 +229,7 @@ Follows [semantic versioning](https://semver.org/):
 ```
 token-lists/
   octra.tokenlist.json   # Token list
+  octra.nftlist.json     # NFT collection list
   logos/                  # Token logo files
   HOW_TO_ADD_TOKEN.md    # Guide for listing your token
   DOCUMENTATION.md       # Detailed docs and integration guide

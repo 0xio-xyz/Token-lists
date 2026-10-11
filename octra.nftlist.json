@@ -1,0 +1,56 @@
+{
+  "name": "0xio NFT collections",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "timestamp": "2026-10-11T00:00:00.000Z",
+  "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Public.svg",
+  "keywords": [
+    "0xio",
+    "octra",
+    "mainnet",
+    "devnet",
+    "wallet",
+    "nft"
+  ],
+  "collections": [
+    {
+      "network": "mainnet",
+      "address": "octC4PvHrT8U1vDsZ5ejEBj6UgW2fRoLfohFBSCePdstZfQ",
+      "name": "Xpectra",
+      "symbol": "XPEC"
+    },
+    {
+      "network": "mainnet",
+      "address": "oct6gz4LUn5NAePzgis2PdBBQrUMLZv8uuZS9ZCPecxaRXA",
+      "name": "tungstenoct",
+      "symbol": "tgst"
+    },
+    {
+      "network": "mainnet",
+      "address": "octHWfjg87B9Li57tgHc3d1ZKWYHY1ijwyFdvDNDTnSsY6o",
+      "name": "Pegasa",
+      "symbol": "PEGA"
+    },
+    {
+      "network": "mainnet",
+      "address": "octH9hzVMGgvCieiERVZGMfXvTa1FHGneESb28212yPPu6J",
+      "name": "Geodesics",
+      "symbol": "GDSC"
+    },
+    {
+      "network": "devnet",
+      "address": "oct2anqvVd5ciBGzqtVZK5pKZehbrQgPnDcw7pnWnCNSWkK",
+      "name": "Geodesics",
+      "symbol": "GDSC"
+    },
+    {
+      "network": "devnet",
+      "address": "octEYrJrypHj2xndM39PokSMM5gGoxEEncKB8k9qGFyhrym",
+      "name": "Colonies",
+      "symbol": "COLONIES"
+    }
+  ]
+}
