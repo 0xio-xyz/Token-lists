@@ -22,6 +22,14 @@ Standardized token registry for the Octra Network ecosystem.
 https://raw.githubusercontent.com/0xio-xyz/Token-lists/main/octra.tokenlist.json
 ```
 
+## Bridged tokens
+
+The list also carries the official wOCT on Ethereum, minted 1:1 by the 0xio bridge. Its entry has `network: "ethereum-mainnet"` and `chainId: 1`, so apps that filter by an Octra network never see it.
+
+| Symbol | Network | Address |
+|--------|---------|---------|
+| wOCT | Ethereum mainnet | `0x4647e1fE715c9e23959022C2416C71867F5a6E80` |
+
 ## NFT Collections
 
 `octra.nftlist.json` lists known NFT collections per network:

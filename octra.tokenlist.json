@@ -2,10 +2,10 @@
   "name": "0xio Octra Token List",
   "version": {
     "major": 1,
-    "minor": 4,
-    "patch": 1
+    "minor": 5,
+    "patch": 0
   },
-  "timestamp": "2026-03-10T00:00:00.000Z",
+  "timestamp": "2026-10-16T00:00:00.000Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Public.svg",
   "keywords": [
     "0xio",
@@ -43,6 +43,14 @@
     "dex": {
       "name": "DEX",
       "description": "Available on 0xio DEX"
+    },
+    "bridged": {
+      "name": "Bridged",
+      "description": "Bridged from Octra to another chain through the 0xio bridge"
+    },
+    "ethereum": {
+      "name": "Ethereum",
+      "description": "Lives on Ethereum mainnet"
     }
   },
   "tokens": [
@@ -174,6 +182,31 @@
         "isPrivate": false,
         "isTestnet": true,
         "blockchain": "Octra Network"
+      }
+    },
+    {
+      "network": "ethereum-mainnet",
+      "chainId": 1,
+      "address": "0x4647e1fE715c9e23959022C2416C71867F5a6E80",
+      "symbol": "wOCT",
+      "name": "Wrapped OCT",
+      "decimals": 6,
+      "logoURI": "https://cdn.jsdelivr.net/gh/0xio-xyz/Token-lists@main/logos/Octra/Oct_Public.svg",
+      "tags": [
+        "ethereum",
+        "mainnet",
+        "wrapped",
+        "bridged"
+      ],
+      "extensions": {
+        "description": "Official wOCT on Ethereum: OCT locked on Octra and minted 1:1 by the 0xio bridge, burned to return to OCT",
+        "explorer": "https://eth.blockscout.com/token/0x4647e1fE715c9e23959022C2416C71867F5a6E80",
+        "bridge": "0xE7eD69b852fd2a1406080B26A37e8E04e7dA4caE",
+        "originNetwork": "octra-mainnet",
+        "isNative": false,
+        "isPrivate": false,
+        "isTestnet": false,
+        "blockchain": "Ethereum"
       }
     }
   ]
